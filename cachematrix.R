@@ -15,9 +15,10 @@ inv = NULL
           list(set=set, get=get, setinv=setinv, getinv=getinv)
 }
 
-
+> i<-c(1,0,0,0,2,0,0,0,1)
+> C<-matrix(i,3,3)
 ## Write a short comment describing this function
-
+## 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         inv= x$getinv()
